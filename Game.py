@@ -38,7 +38,7 @@ class Game:
             if self.snake.head == self.food.vi_tri:
                 self.diem += 1
                 an_moi = True
-                self.food.tao_moi()
+                self.food.random()
 
             self.snake.cap_nhat_than(an_moi)
 
