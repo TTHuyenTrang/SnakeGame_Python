@@ -7,7 +7,7 @@ class Food:
         self.vi_tri = [random.randrange(1, rong//10)*10,
                        random.randrange(1, cao//10)*10]
 
-    def tao_moi(self):
+    def ramdom(self):
         self.vi_tri = [random.randrange(1, self.rong//10)*10,
                        random.randrange(1, self.cao//10)*10]
 
